@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	background-color: #298eea;
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+
+}
+
+header img {
+height: 35px;
+display: block;
+margin: 50px auto 0px auto;
+}
+
+form {
+	width: 400px;
+	padding-left: 30px;
+	padding-right: 40px;
+	background-color: white;
+	margin: 30px auto 10px auto;
+	border-radius: 3px;
+}
+
+form fieldset {
+	border: none;
+}
+
+form fieldset legend {
+	text-align: center;
+	position: relative;
+	top: 10px;
+	right: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 40px;
+	color: #565656;
+
+}
+
+
+form fieldset label {
+	display: inline-block;
+	margin: 30px 0 10px 0;
+}
+
+form fieldset a {
+	display: block;
+	text-align: center;
+	margin: 10px 0;
+	text-decoration: none;
+    color: #999;
+    }
+
+form fieldset a:hover {
+	border-color: #999;
+    color: #777;
+}
+
+form fieldset a span {
+	border-bottom: 1px solid #bbb;
+}
+
+form fieldset button {
+	margin: 30px 0 10px 0;
+}
+
+form fieldset input, button {
+	display: block;
+	width: 320px;
+	padding: 15px;
+	height: 55px;
+	border-radius: 3px;
+	
+
+}
+
+form fieldset input {
+	background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+
+}
+
+form fieldset input:focus, button:focus {
+	border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+form fieldset button:hover {
+	background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+form fieldset button {
+	color: white;
+    background: #15CD72;
+	font-size: 20px;
+	border: 0;
+}
+
+
+
+footer {
+text-align: center;
+font-weight: bold;
+
+}
+
+footer p {
+	display: inline-block;
+	color: #ffffff;
+}
+
+footer a {
+	color: #ffffff;
+}
