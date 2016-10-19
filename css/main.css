@@ -68,9 +68,6 @@ form fieldset a span {
 	border-bottom: 1px solid #bbb;
 }
 
-form fieldset button {
-	margin: 30px 0 10px 0;
-}
 
 form fieldset input, button {
 	display: block;
@@ -88,10 +85,17 @@ form fieldset input {
 
 }
 
+form fieldset button {
+	margin: 30px 0 10px 0;
+}
+
+
 form fieldset input:focus, button:focus {
 	border-color: #E7E7E7;
+
     box-shadow: none;
 }
+
 
 form fieldset button:hover {
 	background-color: #0CB863;
@@ -99,6 +103,17 @@ form fieldset button:hover {
     -moz-transition: background 0.1s;
     -o-transition: background 0.1s;
     transition: background 0.1s;
+}
+
+
+form fieldset #email:valid {
+	border-color: #15CD72;
+    box-shadow: none;
+}
+
+form fieldset #email:invalid {
+	border-color: #ff0000;
+    box-shadow: none;
 }
 
 form fieldset button {
