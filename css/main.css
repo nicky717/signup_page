@@ -80,7 +80,8 @@ form fieldset input, button {
 }
 
 form fieldset input {
-	background: #fcfcfc;
+	/*background: #fcfcfc;*/ /*old background color*/
+	background: rgba(250, 255, 189,1);
     border: 2px solid #e7e7e7;
 
 }
